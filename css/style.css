@@ -91,6 +91,7 @@ li a {
 
 .info-wrapper {
     width: 240px;
+    margin-right: 50px;
 }
 
 .info-wrapper h2 {
@@ -102,6 +103,10 @@ li a {
     font-style: normal;
     text-align: left;
     color: #8d8d8d;
+}
+span {
+    color: red;
+    font-size: 50px;
 }
 
 .info-wrapper h3 {
@@ -126,10 +131,12 @@ li a {
 }
 
 .card-wrapper {
-    width: 880px;
+    max-width: 880px;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    gap: 30px;
 }
 
 .card {
